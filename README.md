@@ -1,6 +1,6 @@
 # :book: JavaBook Study
 개발자 책읽기 스터디   
-- [Medium](https://medium.com/javabook)에 읽은 내용을 Item별로 정리한다.  
+- [Medium](https://medium.com/javabook)에 읽은 내용을 장 단위로 정리한다.  
 - 질의응답은 [Issue](https://github.com/kjsu0209/JavaBook/issues)에서 한다.  
 - 매주 발표 자료는 git에 올린다.  
 
