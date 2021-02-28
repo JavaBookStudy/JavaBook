@@ -6,7 +6,8 @@
 정수: [미니 세미나 - 디자인패턴](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/1%EC%A3%BC%EC%B0%A8/ej_1%EC%A3%BC%EC%B0%A8_%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4_%EA%B9%80%EC%A0%95%EC%88%98.pdf)  
   
 ### 2주차 (2021.03.01)
-정수: 발표
-태현: 문서화
-대연: 이슈관리
-주연: 미니 세미나
+정수: 발표  
+태현: 문서화  
+대연: 이슈관리  
+주연: 미니 세미나  
+ 
