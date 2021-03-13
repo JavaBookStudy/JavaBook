@@ -7,6 +7,7 @@
 #### 이펙티브 자바 3/E (Joshua Bloch 저. 이복연 옮김. 프로그래밍 인사이트)   
 - [번역 용어 해설](https://docs.google.com/document/d/1Nw-_FJKre9x7Uy6DZ0NuAFyYUCjBPCpINxqrP0JFuXk/edit)
 
+---------
 
 ### 1주차 (2021.02.22)  
 태현: [발표]()  
