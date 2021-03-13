@@ -1,4 +1,13 @@
 # :book: Effective Java
+
+<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=171196410">
+<img src="https://image.aladin.co.kr/product/17119/64/cover500/8966262287_1.jpg" width="250" alt="책 이미지">
+</a>
+  
+#### 이펙티브 자바 3/E (Joshua Bloch 저. 이복연 옮김. 프로그래밍 인사이트)   
+- [번역 용어 해설](https://docs.google.com/document/d/1Nw-_FJKre9x7Uy6DZ0NuAFyYUCjBPCpINxqrP0JFuXk/edit)
+
+
 ### 1주차 (2021.02.22)  
 태현: [발표]()  
 대연: [문서화](https://medium.com/javabook/effective-java-3-e-2%EC%9E%A5-%EA%B0%9D%EC%B2%B4-%EC%83%9D%EC%84%B1%EA%B3%BC-%ED%8C%8C%EA%B4%B4-96b696a174ee)  
