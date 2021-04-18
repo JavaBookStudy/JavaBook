@@ -2,7 +2,7 @@
 개발자 책읽기 스터디   
 - [Medium](https://medium.com/javabook)에 읽은 내용을 장 단위로 정리한다.  
 - 질의응답은 [Issue](https://github.com/kjsu0209/JavaBook/issues)에서 한다.  
-- 매주 발표 자료는 git에 올린다.  
+- 매주 발표 자료는 스터디 전까지 git에 올린다.  
 
 ### :pencil: 발표 자료 올리는 방법   
 - 폴더 이름은 ```책이름/n주차```로 한다.  
