@@ -14,6 +14,6 @@
 - 이번주 이슈담당자를 assign한다.  
 
 ### 👀 지금 읽고 있는 책  
-- Effective Java(Joshua Bloch 저)  
+- [Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)  
 
 ### 😎 지금까지 읽은 책
