@@ -8,6 +8,9 @@
 - [번역 용어 해설](https://docs.google.com/document/d/1Nw-_FJKre9x7Uy6DZ0NuAFyYUCjBPCpINxqrP0JFuXk/edit)
 
 ---------
+## Issue
+[마일스톤 바로가기](https://github.com/kjsu0209/JavaBook/milestone/1)
+
 ## Reading Log
 
 |주차|날짜|범위| 📢 발표|:pencil: 문서화|:rocket: 이슈관리| 📚 미니 세미나|미니 세미나 주제|
