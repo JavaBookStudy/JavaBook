@@ -1,0 +1,5 @@
+package com.pj.dto;
+
+public class Quiz {
+
+}

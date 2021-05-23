@@ -1,0 +1,11 @@
+package com.pj.client;
+
+public interface Client {
+	// 서버에 연결
+	public boolean connect(String name);
+	
+	// 콘솔에서 명령 받기
+	public void process(String command);
+	
+	//
+}
