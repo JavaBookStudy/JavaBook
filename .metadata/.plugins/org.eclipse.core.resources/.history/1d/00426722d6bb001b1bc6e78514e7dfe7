@@ -1,5 +1,0 @@
-package com.pj.client;
-
-public interface Client {
-	
-}

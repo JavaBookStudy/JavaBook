@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Encapsulate field &apos;com.pj.dto.ClientInfo.name&apos; in &apos;com.pj.dto.ClientInfo&apos;&#x0D;&#x0A;- Original project: &apos;javabookpjt&apos;&#x0D;&#x0A;- Original element: &apos;com.pj.dto.ClientInfo.name&apos;&#x0D;&#x0A;- Getter method name: &apos;getName&apos;&#x0D;&#x0A;- Setter method name: &apos;setName&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;name&apos;" flags="589830" getter="getName" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.pj.dto{ClientInfo.java[ClientInfo^name" insertion="4" setter="setName" stamp="1621781423777" version="1.0" visibility="1"/>
-</session>
