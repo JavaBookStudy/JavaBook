@@ -34,9 +34,11 @@ public class ConnectorThread implements Runnable{
 				
 				// client 정보 저장
 				ClientInfo info = (ClientInfo) deserialize(b);
+				info.setSocket(socket);
 				server.addClient(info);
+				System.out.println("Client Added : " + info);
 				
-				in.close();
+				server.runQuizSendor(socket);
 			} catch (IOException e) {
 				e.printStackTrace();
 				

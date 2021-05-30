@@ -2,6 +2,7 @@ package com.pj.server;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
+import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
@@ -36,11 +37,24 @@ public class QuizThread implements Runnable{
 				// Client에게 퀴즈 요청 오면 퀴즈 보내기
 				InputStream in = clientSocket.getInputStream();
 				
+				/*
 				byte[] b = new byte[10000];
 				in.read(b); // client 요청 읽기
 				
 				RequestDTO r = (RequestDTO) deserialize(b);
-				
+				*/
+				ObjectInputStream ois = null;
+				RequestDTO r = null;
+				try {
+					ois = new ObjectInputStream(clientSocket.getInputStream());
+					r = RequestDTO.values()[ois.readInt()];
+
+				}catch(EOFException e) {
+					// 넘어간다.
+					System.out.println(e);
+				}
+				System.out.println(r);
+
 				if(r == RequestDTO.REQUESTQUIZ) {
 					// 퀴즈 보내기
 					ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream());
@@ -56,13 +70,14 @@ public class QuizThread implements Runnable{
 					ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream());
 					
 					// 확인 메시지 보내기
-					oos.writeObject(RequestDTO.ACKFINCONNECTION);
+					oos.writeInt(RequestDTO.ACKFINCONNECTION.ordinal());
 					
 					// 클라이언트 포인트 정보 받기
-					b = new byte[10000];
-					in.read(b);
+					//b = new byte[10000];
+					//in.read(b);
 					
-					ClientInfo clientInfo = (ClientInfo) deserialize(b);
+					//ClientInfo clientInfo = (ClientInfo) deserialize(b);
+					ClientInfo clientInfo = (ClientInfo) ois.readObject();
 					
 					server.addRank(clientInfo);
 
@@ -83,11 +98,11 @@ public class QuizThread implements Runnable{
 					
 					break; // while문 탈출
 				}
-				
+				ois.close();
 				in.close();
-			} catch (IOException e) {
+			} catch (IOException | ClassNotFoundException e) {
 				e.printStackTrace();
-				
+				break;
 			}
 		}
 	}

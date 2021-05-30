@@ -24,4 +24,5 @@ public interface Client {
 	
 	// 2-2. 서버에게 종료 요청 보내고 최고 득점자 정보 받기
 	public ClientInfo closeConnection();
+	
 }

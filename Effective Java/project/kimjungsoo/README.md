@@ -14,8 +14,10 @@ Server
 - com.pj.server.QuizThread : 퀴즈 문제를 보내주는 스레드  
 - com.pj.server.PointThread : 클라이언트 종료시 포인트 정보를 받고 최고 점수를 보내주는 스레드
 - com.pj.dto.Quiz : 퀴즈 문제 객체
-- com.pj.dto.Point : 클라이언트와 포인트 정보를 담는 객체
+- com.pj.dto.ClientInfo : 클라이언트와 포인트 정보를 담는 객체
+- com.pj.dto.RequestDTO : 통신용 Enum
   
+
 Client  
 - com.pj.main.Main : main 메서드가 있는 클래스  
 - com.pj.client.Client : 클라이언트 인터페이스  
@@ -24,5 +26,28 @@ Client
 
 ## 적용 Item  
 
+#### Item 55. Optional 반환은 신중히 하라   
+```
+Optional<ClientInfo> info = server.getHighestPoint();
+					
+	if(!info.isPresent()) { // 최고점이 존재하지 않을 경우(랭크 추가 에러시 클라이언트 점수를 최고점으로 한다)
+		oos.writeObject(clientInfo);
+	}
+	else {// 최고점이 존재할 경우
+		oos.writeObject(info.get());
+	}
+```  
+-> Optional 객체에 최고점 플레이어 객체를 담아 보냈음.
 
-... 추가중
+#### Item 80. 스레드보다는 실행자, 태스크, 스트림을 애용하라   
+```
+@Override
+	public void runConnector() throws ServerInstanceException{
+		// TODO Auto-generated method stub
+		execConnector = Executors.newSingleThreadExecutor();
+		Runnable runnable = new ConnectorThread();
+		execConnector.execute(runnable);
+	}
+```
+-> 서버에서 클라이언트 소켓과 연결하는 스레드, 퀴즈 보내는 스레드를 실행할 때 실행자를 이용하였음.  
+

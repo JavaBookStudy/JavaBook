@@ -40,7 +40,7 @@ public class ServerImpl implements Server {
 		
 		try {
 			setServerSocket(new ServerSocket(7777));
-			System.out.println("Server Connected");
+			System.out.println("Server Started");
 		}
 		catch(IOException e) {
 			e.printStackTrace();
@@ -73,10 +73,10 @@ public class ServerImpl implements Server {
 	}
 	
 	@Override
-	public void runQuizSendor() {
+	public void runQuizSendor(Socket client) {
 		// TODO Auto-generated method stub
 		execQuizSendor = Executors.newSingleThreadExecutor();
-		Runnable runnable = new ConnectorThread();
+		Runnable runnable = new QuizThread(client);
 		execQuizSendor.execute(runnable);
 	}
 

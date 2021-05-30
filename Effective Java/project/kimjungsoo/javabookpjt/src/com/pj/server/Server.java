@@ -21,7 +21,7 @@ public interface Server {
 	public void runCloser(Socket clientSocket);
 	
 	// 2-3. 퀴즈 보내는 스레드 실행
-	public void runQuizSendor();
+	public void runQuizSendor(Socket client);
 	
 	// 2-4. 클라이언트 연결시 클라이언트 추가
 	public void addClient(ClientInfo client);

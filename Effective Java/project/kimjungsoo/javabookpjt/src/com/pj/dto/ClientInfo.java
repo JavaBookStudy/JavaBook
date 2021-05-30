@@ -3,9 +3,10 @@ package com.pj.dto;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.Serializable;
 import java.net.Socket;
 
-public class ClientInfo {
+public class ClientInfo implements Serializable{
 	private Socket socket;
 	private String CID;
 	private String name;
