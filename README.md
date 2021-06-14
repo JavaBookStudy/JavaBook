@@ -22,7 +22,7 @@
 > -----
 
 ### 👀 지금 읽고 있는 책  
-- [토비의 스프링 3.1(이일민 저)]()
+- [토비의 스프링 3.1(이일민 저)](https://github.com/kjsu0209/JavaBook/tree/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/README.md)
 
 ### 😎 지금까지 읽은 책
 - [Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)  
