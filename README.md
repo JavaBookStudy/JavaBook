@@ -1,6 +1,6 @@
 # :book: JavaBook Study
 개발자 책읽기 스터디   
-- [Medium](https://medium.com/javabook)에 읽은 내용을 장 단위로 정리한다.  
+- [GitHub Blog](https://github.com/JavaBookStudy/JavaBookStudy.github.io)에 읽은 내용을 장 단위로 정리한다.  
 - 질의응답은 [Issue](https://github.com/kjsu0209/JavaBook/issues)에서 한다.  
 - 매주 발표 자료는 스터디 전까지 git에 올린다.  
 
@@ -13,7 +13,17 @@
 - 이슈가 해결되면 반드시 close한다.  
 - 이번주 이슈담당자를 assign한다.  
 
+### :bulb: 질문 올리는 방법  
+- md 파일 제목은 'qna_0.md' 형식으로 한다.  
+- 되도록이면 PR을 사용한다. (브라우저에서 직접 편집시 꼬일 수 있음)  
+- 질문 템플릿
+> #### :bulb: 제목 
+> 내용
+> -----
+
 ### 👀 지금 읽고 있는 책  
-- [Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)  
+- [토비의 스프링 3.1(이일민 저)](https://github.com/kjsu0209/JavaBook/tree/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/README.md)
 
 ### 😎 지금까지 읽은 책
+- [Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)  
+  
