@@ -17,6 +17,6 @@
 |-   |-   |-   |-   | -    |
 |[1주차](https://github.com/kjsu0209/JavaBook/blob/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/1%EC%A3%BC%EC%B0%A8/qna_1.md)|2021.06.28|1.1~1.5|정수|태현|
 |[2주차](https://github.com/kjsu0209/JavaBook/blob/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/2%EC%A3%BC%EC%B0%A8/qna_2.md)|2021.07.05|1.6~2.3|대연|정수|
-|[3주차](https://github.com/kjsu0209/JavaBook/blob/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/3%EC%A3%BC%EC%B0%A8/qna_3.md)|2021.07.12|1.6~1.9|주연|대연|
-|[4주차](https://github.com/kjsu0209/JavaBook/blob/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/4%EC%A3%BC%EC%B0%A8/qna_4.md)|2021.07.19|1.6~1.9||주연|
+|[3주차](https://github.com/kjsu0209/JavaBook/blob/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/3%EC%A3%BC%EC%B0%A8/qna_3.md)|2021.07.12||주연|대연|
+|[4주차](https://github.com/kjsu0209/JavaBook/blob/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/4%EC%A3%BC%EC%B0%A8/qna_4.md)|2021.07.19||태현|주연|
 
