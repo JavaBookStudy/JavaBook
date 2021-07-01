@@ -18,8 +18,8 @@
 
 |주차|날짜|범위|:pencil: 문서화|:rocket: 이슈관리|
 |-   |-   |-   |-   | -    |
-|[1주차](https://github.com/kjsu0209/JavaBook/blob/main/Q&A/qna_1.md)|2021.06.28|1.1~1.5|정수|태현|
-|[2주차](https://github.com/kjsu0209/JavaBook/blob/main/Q&A/qna_2.md)|2021.07.05|1.6~2.3|대연|정수|
-|[3주차](https://github.com/kjsu0209/JavaBook/blob/main/Q&A/qna_3.md)|2021.07.12||주연|대연|
-|[4주차](https://github.com/kjsu0209/JavaBook/blob/main/Q&A/qna_4.md)|2021.07.19||태현|주연|
+|[1주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_1.md)|2021.06.28|1.1~1.5|정수|태현|
+|[2주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_2.md)|2021.07.05|1.6~2.3|대연|정수|
+|[3주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_3.md)|2021.07.12||주연|대연|
+|[4주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_4.md)|2021.07.19||태현|주연|
 
