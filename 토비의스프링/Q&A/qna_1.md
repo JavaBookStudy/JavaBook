@@ -8,8 +8,7 @@
 #### :bulb: 팩토리 메서드 패턴이란?  
 - 자식 클래스가 어떤 객체를 생성할지 결정하도록 하는 패턴으로, 객체의 생성 코드를 별도의 클래스나 메서드로 분리한다.
 - 객체 생성의 변화에 대비하는 데 유용하다.  
-- 부모 클래스 코드에 구체 클래스 이름을 감출 때 사용할 수도 있다. (토비의 스프링에서 DConnector, NConnector를 Connector로 감춘 것이 대표적인 예)
-- 객체를 생성하기만 하는 메서드만 말하는 것이 나리라 
+- 부모 클래스 코드에 구체 클래스 이름을 감출 때 사용할 수도 있다. (토비의 스프링에서 DConnector, NConnector를 Connector로 감춘 것이 대표적인 예)   
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/FactoryMethod.svg/300px-FactoryMethod.svg.png)  
 - 상위 클래스인 Product가 아닌 구현체인 ConcreteCreator에서 Product 객체를 생성한다.
 --------
