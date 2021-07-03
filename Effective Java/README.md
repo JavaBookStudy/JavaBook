@@ -28,3 +28,4 @@
 |11주차|2021.05.10|Item 85 ~ 90|주연|정수|태현|대연|유명한 보안 취약점|
 
 ## Project
+[프로젝트 폴더](https://github.com/JavaBookStudy/JavaBook/tree/main/Effective%20Java/project)
