@@ -40,6 +40,21 @@
 
 #### :bulb: JVM에서 Class Loader가 무엇인지?
 
+Class Loader란 바이트코드를 읽어 들여서 class 객체를 생성하는 역할을 담당하는 JVM의 컴포넌트입니다.
+로딩, 링크, 초기화 과정을 거쳐서 바이트코드를 메모리에 배치합니다.    
+- 로딩: 클래스를 읽어오는 과정 (bootstrap, extension, application 로더를 거침)  
+=> Bootstrap: 플랫폼의 부모 클래스(jre의 jar 파일 읽기)  
+=> Extension: 애플리케이션의 부모 클래스  
+=> Application: 개발자가 생성한 클래스 대상  
+
+- 링크 : 레퍼런스 연결 과정  
+=> Verify: 바이트코드가 유효한지 검사하고 JVM 에러 발생시킬지 판단  
+=> Prepare: 메모리 준비 과정(static, 기본값)  
+=> Resolve: symbolic한 레퍼런스를 실제 레퍼런스로 교체  
+
+- 초기화 : static 값을 초기화하고 변수를 할당하는 과정  
+=> static으로 선언된 변수에 메소드에 메모리를 할당   
+
 --------
 
 
