@@ -17,13 +17,17 @@
 - md 파일 제목은 'qna_0.md' 형식으로 한다.  
 - 되도록이면 PR을 사용한다. (브라우저에서 직접 편집시 꼬일 수 있음)  
 - 질문 템플릿
-> #### :bulb: 제목 
-> 내용
-> -----
+```
+#### :bulb: 제목 
+내용
+-----
+```
 
 ### 👀 지금 읽고 있는 책  
 - [토비의 스프링 3.1(이일민 저)](https://github.com/kjsu0209/JavaBook/tree/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/README.md)
 
 ### 😎 지금까지 읽은 책
-- [Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)  
   
+| 제목 | 기간 | 이슈 |
+|    -    |    -     |   -   |  
+|[Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)| 2021.02.22 ~ 2021.05.10	| [link](https://github.com/JavaBookStudy/JavaBook/milestone/1?closed=1)|
