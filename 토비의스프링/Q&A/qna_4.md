@@ -21,4 +21,4 @@
 
 --------
 
-#### :bulb: callback이 왜 클래스여야 하는지, 함수형 패러다임에서 Javascript와 비교하시오 by. 대연
+#### :bulb: callback이 왜 클래스여야 하는지, 왜 책에서 callback은 메서드를 하나만 담고 있어야 하는지, Java의 한계에 대하여 함수형 패러다임에서 Javascript와 비교하시오 by. 대연
