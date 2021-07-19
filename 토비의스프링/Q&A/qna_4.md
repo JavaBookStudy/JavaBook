@@ -29,4 +29,4 @@
 
 --------
 
-#### :bulb: nested class에 대해서 아는대로 설명해 주세요 by. 
+#### :bulb: nested class에 대해서 아는대로 설명해 주세요 by. 정수 
