@@ -16,3 +16,5 @@
 #### :bulb: 네거티브 테스트에 대하여 설명해 주세요 by. 주연
 
 --------
+
+#### :bulb: ResultSetExtractor와 RowMapper의 공통점과 차이점을 설명해 주세요 by. 태현
