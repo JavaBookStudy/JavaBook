@@ -18,3 +18,7 @@
 --------
 
 #### :bulb: ResultSetExtractor와 RowMapper의 공통점과 차이점을 설명해 주세요 by. 태현
+
+--------
+
+#### :bulb: callback이 왜 클래스여야 하는지, 함수형 패러다임에서 Javascript와 비교하시오 by. 대연
