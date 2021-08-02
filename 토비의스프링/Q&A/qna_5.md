@@ -2,6 +2,12 @@
 
 #### :bulb: 자바에서 throw를 통해 발생시킬 수 있는 예외의 종류 3가지 by 정수  
 
+- ArrayIndexOutOfBoundsException
+- NullPointerException
+- OutOfMemoryException
+
+-------
+
 #### :bulb: unchecked exception과 checked exception 차이 by 정수  
 
 --------
@@ -45,6 +51,11 @@ JdbcTemplate에 스프링이 계층적으로 정의한 예외 클래스가 존�
 
 #### :bulb: 예외처리 3가지 방법 by 주연
 
+- 예외 복구 : 예외상황을 파악하고 문제를 해결해서 정상 상태로 돌려놓는 것. (checked Exception 대상)
+
+- 예외 회피 : 예외처리를 자신이 담당하지 않고 자신을 호출한 쪽으로 던져버리는 것. (throws 문)
+
+- 예외 전환 : 발생한 예외를 적절한 예외로 전환해서 던잠. (목적 1: 적절한 의미 부여, 목적 2: 체크 예외 -> 언체크 예외로 전환하여 처리하기 쉽게 만듬)
 
 --------
 
