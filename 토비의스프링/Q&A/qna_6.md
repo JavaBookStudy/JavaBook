@@ -15,3 +15,11 @@
 #### :bulb: Service와 Dao를 구분하는 이유를 설명해 주세요 by.주연
 
 --------
+
+#### :bulb: 멀티쓰레드 환경에서 안전한 트랜젝션을 구현하기 위한 방법과 절차 by.대연
+
+--------
+
+#### :bulb: PlatformTransactionManager의 설명 by.대연
+
+--------
