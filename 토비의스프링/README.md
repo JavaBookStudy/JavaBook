@@ -24,5 +24,5 @@
 |[4주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_4.md)|2021.07.19|3.5~3.7|태현|주연|
 |[5주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_5.md)|2021.07.26|4.1~4.3|정수|태현|
 |[6주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_6.md)|2021.07.05|5.1~5.2|대연|정수|
-|[7주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_7.md)|2021.07.12||주연|대연|
+|[7주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_7.md)|2021.07.12|5.3~5.5|주연|대연|
 |[8주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_8.md)|2021.07.19||태현|주연|
