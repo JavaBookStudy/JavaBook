@@ -23,3 +23,11 @@
 #### :bulb: PlatformTransactionManager의 설명 by.대연
 
 --------
+
+#### :bulb: Enum에 대해 아는 대로 설명해 주세요. by 정수
+
+--------
+
+#### :bulb: final static int보다 enum을 사용하는 것이 더 나은 이유는? by 정수
+
+--------
