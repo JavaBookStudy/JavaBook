@@ -4,10 +4,10 @@
 
 | 이름 | 소속 | 비고 |
 | - | - | - |
-|  김정수  |  -  |  스터디장  |
-|  김대연  |  SSAFY  |  -  |
-|  정태현  |  SSAFY  |  -  |
-|  한주연  |  SSAFY  |  -  |
+|  [kjsu0209](https://github.com/kjsu0209)  |  -  |  스터디장  |
+|  [taxol1203](https://github.com/taxol1203)  |  SSAFY  |  -  |
+|  [jth2747](https://github.com/jth2747) |  SSAFY  |  -  |
+|  [daebalprime](https://github.com/daebalprime)  |  SSAFY  |  -  |
 
 개발자 책읽기 스터디   
 - [GitHub Blog](https://github.com/JavaBookStudy/JavaBookStudy.github.io)에 읽은 내용을 장 단위로 정리한다.  
