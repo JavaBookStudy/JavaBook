@@ -8,7 +8,7 @@
 
 --------
 
-#### :bulb: AspectJ의 프록시와 Spring AOP를 비교해서 설명하세요. by 대연
+#### :bulb: AspectJ의 AOP와 Spring AOP를 비교해서 설명하세요. by 대연
 
 --------
 
