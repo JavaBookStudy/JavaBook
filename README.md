@@ -1,16 +1,9 @@
 # :book: JavaBook Study
 
-### 🙆‍♂️🙆 스터디 멤버
+> ☕ 개발자 책읽기 모임  
 
-| 이름 | 소속 | 비고 |
-| - | - | - |
-|  [kjsu0209](https://github.com/kjsu0209)  |  -  |  스터디장  |
-|  [taxol1203](https://github.com/taxol1203)  |  SSAFY  |  -  |
-|  [jth2747](https://github.com/jth2747) |  SSAFY  |  -  |
-|  [daebalprime](https://github.com/daebalprime)  |  SSAFY  |  -  |
-
-개발자 책읽기 스터디   
-- [GitHub Blog](https://github.com/JavaBookStudy/JavaBookStudy.github.io)에 읽은 내용을 장 단위로 정리한다.  
+### :thinking: 스터디 가이드
+- [GitHub Blog](https://github.com/JavaBookStudy/JavaBookStudy.github.io)에 읽은 내용을 장 단위로 문서화한다.  
 - 질의응답은 [Issue](https://github.com/kjsu0209/JavaBook/issues)에서 한다.  
 - 매주 발표 자료는 스터디 전까지 git에 올린다.  
 
@@ -41,3 +34,17 @@
 | 제목 | 기간 | 이슈 |
 |    -    |    -     |   -   |  
 |[Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)| 2021.02.22 ~ 2021.05.10	| [link](https://github.com/JavaBookStudy/JavaBook/milestone/1?closed=1)|
+
+### 🙆‍♂️🙆 함께한 사람들
+|   |   |   |   |
+| - | - | - | - |
+|  [kjsu0209](https://github.com/kjsu0209) |  [taxol1203](https://github.com/taxol1203)  | [jth2747](https://github.com/jth2747) | [daebalprime](https://github.com/daebalprime)  |
+  
+### 👩‍💻 Join Us!
+```
+- 취준중, 재직중이더라도 꾸준히 개발 관련 서적을 읽고 싶은 분
+- 모르는게 있으면 꼭 이해하고 넘어가야 되는 분
+- 끝없는(?) 개발자 토론을 즐기시는 분
+```
+관심 있으신 분들은 아래 메일로 문의 주세요 😺  
+kjsu0209@gmail.com
