@@ -40,6 +40,3 @@
 | - | - | - | - |
 |  [kjsu0209](https://github.com/kjsu0209) |  [taxol1203](https://github.com/taxol1203)  | [jth2747](https://github.com/jth2747) | [daebalprime](https://github.com/daebalprime)  |
   
-### 👩‍💻 Join Us!
-관심 있으신 분들은 아래 메일로 문의 주세요 😺  
-kjsu0209@gmail.com
