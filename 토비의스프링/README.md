@@ -28,4 +28,5 @@
 |[8주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_8.md)|2021.08.16|6.1~6.3|태현|주연|
 |[9주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_9.md)|2021.08.30|6.4~6.5|정수|태현|
 |[10주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_10.md)|2021.09.06|6.6~6.7|대연|정수|
+|[11주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.09.14(미정)|6.8~7.2|주연|대연|
 
