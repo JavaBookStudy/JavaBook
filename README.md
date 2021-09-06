@@ -41,10 +41,5 @@
 |  [kjsu0209](https://github.com/kjsu0209) |  [taxol1203](https://github.com/taxol1203)  | [jth2747](https://github.com/jth2747) | [daebalprime](https://github.com/daebalprime)  |
   
 ### 👩‍💻 Join Us!
-```
-- 취준중, 재직중이더라도 꾸준히 개발 관련 서적을 읽고 싶은 분
-- 모르는게 있으면 꼭 이해하고 넘어가야 되는 분
-- 끝없는(?) 개발자 토론을 즐기시는 분
-```
 관심 있으신 분들은 아래 메일로 문의 주세요 😺  
 kjsu0209@gmail.com
