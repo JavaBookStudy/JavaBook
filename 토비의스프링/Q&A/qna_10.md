@@ -2,6 +2,9 @@
 
 #### :bulb: 트랜잭션 속성을 등록하는 방법 2가지를 말해주세요 by 주연
 
+빈으로 등록하는 방법과 tx 네임스페이스를 이용하여 등록하는 방법 두 가지가 있다.
+tx 네임스페이스가 빈으로 등록하는 방법에 비해 더욱 더 간결하며 스키마를 통한 오타 체크가 가능하다는 장점이 있다.
+
 --------
 
 #### :bulb: 트랜잭션을 적용해야하는 대상을 알려주세요 by 주연
@@ -25,6 +28,57 @@
 
 #### :bulb: 트랜잭션 속성 중 격리 수준에 대하여 살명해주세요. by 대연
 
+
+### READ UNCOMMITTED
+
+어떤 트랜잭션에서 변경된 내용이, 다른 트랜잭션에서 commit이나 rollback과 관계없이 보여진다. 
+
+예를 들어서 A 트랜잭션에서 특정 row의 특정 column의 값을 변경하였지만 커밋하지 않은 상태에서, B 트랜잭션이 A 트랜잭션에서 변경한 내용을 읽어들일 수 있는 레벨이다. 이를 Dirty Read라고 하며 데이터 정합성의 문제가 생긴다.
+
+### READ COMMITTED
+
+어떤 트랜잭션에서 변경된 내용은 commit되어야만 다른 트랜잭션에서 변경된 내용을 읽을 수 있다. 즉 UNDO 영역의 값을 불러들이며, 가장 널리 쓰이는 격리 수준이다. 그러나 NON-REPEATABLE READ 부정합 문제가 존재할 수 있다.
+
+경기 정보를 담고 있는 DB가 있다고 가정하자.
+
+- A 트랜잭션에서 4번 경기의 현재 스코어를 조회했을 때 0:0 이었다.
+- B 트랜잭션에서 4번 경기의 현재 스코어를 1:0으로 업데이트 하고 커밋했다.
+- A 트랜잭션이 다시 4번 경기의 스코어를 조회했을 때 1:0으로 조회된다.
+
+하나의 트랜잭션 내에서 SELECT를 수행하였는데 다른 결과가 나타나는 것을 NON-REPEATABLE READ 부정합이라고 한다.
+
+금융정보와 같은 민감한 정보를 다룰 때 문제가 있을 수 있다.
+
+### REPEATABLE READ
+
+어떤 트랜잭션에서 읽어들이는 값은 해당 트랜잭션이 시작되기 전에 commit된 값에 한정한다. InnoDB의 트랜잭션은 순차적으로 증가하는 번호를 부여받으며, 자신보다 낮은 번호를 가진  트랜잭션에서 commit된 값만을 보게 된다.
+
+트랜잭션 별로 다양한 DB의 상태 버젼을 관리해야 하는 오버헤드가 있지만, 일반적으로는 트랜잭션이 금방금방 끝나기 때문에 큰 문제는 되지 않는다고 한다.
+
+UPDATE 부정합이 발생할 수 있다.
+
+```sql
+START TRANSACTION; -- transaction id : 1
+SELECT * FROM Member WHERE name='daebalprime';
+
+    START TRANSACTION; -- transaction id : 2
+    SELECT * FROM Member WHERE name = 'daebalprime';
+    UPDATE Member SET name = 'daeyeon' WHERE name = 'daebalprime';
+    COMMIT;
+
+UPDATE Member SET name = 'supersexyguy' WHERE name = 'daebalrpime'; -- 0 row(s) affected
+COMMIT;
+```
+
+- 2번 트랜잭션에서 daebalprime 이름을 가진 사람의 이름을 daeyeon으로 변경한다.
+- 1번 트랜잭션에서 정보를 일관되게 읽을 수 있도록 2번 트랜잭션에서 UPDATE를 수행할 때 name = 'daebalprime'의 내용을 언두로그에 남긴다.
+- 맨 아래의 UPDATE 문을 수행할 때, DB에 존재하는 실제 데이터, 즉 레코드 데이터의 해당 row에 잠금이 필요하지만, name = 'daebalprime'의 경우 UNDO 로그에 있고, 이 영역에 대해선 쓰기 잠금이 불가능하다.
+- 결국 1번 트랜잭션이 바라보는 name = 'daebalprime'에 대해 쓰기 잠금을 얻지 못하여 아무런 변화도 일어나지 않는다.
+
+### SERIALIZABLE
+
+가장 강한 격리 수준이며 읽기까지 잠금을 관리한다. 가장 동시성이 떨어지며 성능 이슈가 동반된다. 데이터 정합성만큼은 확실하게 관리할 수 있다.
+
 --------
 
 #### :bulb: TransactionInterceptor에서 예외 처리를 할 때 가정으로 두는 원칙을 설명해주세요. by 대연
@@ -43,6 +97,9 @@
 --------
 
 #### :bulb: 결제 시스템에서 결제 승인 작업을 수행할 때 여러 트랜잭션을 한 작업에서 수행합니다. 어떤 트랜잭션 전파(propagation)가 필요할까요? by 정수
+
+결제 당 트랜잭션을 생성하는게 옳기 때문에  PROPAGATION_REQUIRES_NEW를 사용하여야 한다고 생각합니다.
+특정 결제의 예외에 의해 나머지 결제도 영향을 받을 수 있기 때문입니다.
 
 --------
 
