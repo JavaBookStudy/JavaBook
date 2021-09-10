@@ -3,7 +3,7 @@
 > ☕ 개발자 책읽기 모임  
 
 ### :thinking: 스터디 가이드
-- [GitHub Blog](https://github.com/JavaBookStudy/JavaBookStudy.github.io)에 읽은 내용을 장 단위로 문서화한다.  
+- [GitHub Blog](https://github.com/JavaBookStudy/JavaBookStudy.github.io)에 읽은 내용을 주 단위로 문서화한다.  
 - 질의응답은 [Issue](https://github.com/kjsu0209/JavaBook/issues)에서 한다.  
 - 매주 발표 자료는 스터디 전까지 git에 올린다.  
 
