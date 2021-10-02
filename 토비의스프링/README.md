@@ -28,7 +28,7 @@
 |[8주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_8.md)|2021.08.16|6.1~6.3|태현|주연|
 |[9주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_9.md)|2021.08.30|6.4~6.5|정수|태현|
 |[10주차](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_10.md)|2021.09.06|6.6~6.7|대연|정수|
-|[11주차-1](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.09.27|6.8~7.1|주연|대연|
-|[11주차-2](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.09.27|7.2~7.4|정수|주연|
-|[11주차-3](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.09.27|7.5~7.7|대연|정수|
+|[11주차-1](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.10.04|6.8~7.1|주연|대연|
+|[11주차-2](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.10.04|7.2~7.4|정수|주연|
+|[11주차-3](https://github.com/kjsu0209/JavaBook/blob/main/Q%26A/qna_11.md)|2021.10.04|7.5~7.7|대연|정수|
 
