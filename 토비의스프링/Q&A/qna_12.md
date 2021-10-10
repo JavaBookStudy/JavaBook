@@ -1,6 +1,6 @@
 # 12주차  
 
-#### :bulb: @Annotation의 개념과 작동 방식을 설명해 주세요. by 정수  
+#### :bulb: @Annotation의 개념과 XML보다 유리한 점을 설명해 주세요. by 정수  
 
 -----
 
