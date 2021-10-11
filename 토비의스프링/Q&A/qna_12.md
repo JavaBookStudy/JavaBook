@@ -30,3 +30,10 @@
 
 #### :bulb: @ComponentScan 애너테이션으로 클래스패스를 지정하는 이유 by 대연
 
+-----
+
+#### :bulb: Spring Framework를 사용하는 이유? by 주연
+
+-----
+
+#### :bulb: EmbeddedDbSqlRegistry의 updateSql에서 동시에 sql을 업데이트하면 생기는 문제점과 해결 방안? by 
