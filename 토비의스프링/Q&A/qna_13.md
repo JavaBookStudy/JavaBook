@@ -18,6 +18,6 @@
 -----------
 
 
-#### :bulb: @ContextConfiguration, @Configuration, @Bean에 대하여 알려주세요 (복습) by 주연
+#### :bulb: @ContextConfiguration, @Configuration, @Bean에 대하여 알려주세요 by 주연
 
 -----------
