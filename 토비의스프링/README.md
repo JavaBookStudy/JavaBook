@@ -1,10 +1,10 @@
-# :book: 토비의 스프링 3.1
+# :book: 토비의 스프링 3.1 vol.1
 
 <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=19505747">
 <img src="https://image.aladin.co.kr/product/1950/55/cover500/8960773417_1.jpg" width="250" alt="책 이미지">
 </a>
   
-#### 토비의 스프링 3.1 (이일민 저. 에이콘)   
+#### 토비의 스프링 3.1 vol.1 (이일민 저. 에이콘)   
 
 ---------
 
