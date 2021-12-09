@@ -31,12 +31,13 @@
 
 ### 😎 지금까지 읽은 책
   
-| 제목 | 기간 | 이슈 |
-|    -    |    -     |   -   |  
-|[Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)| 2021.02.22 ~ 2021.05.10	| [link](https://github.com/JavaBookStudy/JavaBook/milestone/1?closed=1)|
-|[토비의 스프링 3.1(이일민 저)](https://github.com/kjsu0209/JavaBook/tree/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/README.md)| 2021.06.28 ~ 2021.12.09 |[link](https://github.com/JavaBookStudy/JavaBook/milestone/2?closed=1)|
+| 제목 | 기간 | 이슈 | 함께한 사람들 |
+|    -    |    -     |   -   |   -  |
+|[Effective Java(Joshua Bloch 저)](https://github.com/kjsu0209/JavaBook/blob/main/Effective%20Java/README.md)| 2021.02.22 ~ 2021.05.10	| [link](https://github.com/JavaBookStudy/JavaBook/milestone/1?closed=1)| kjsu0209, taxol1203, jth2747, daebalprime |
+|[토비의 스프링 3.1(이일민 저)](https://github.com/kjsu0209/JavaBook/tree/main/%ED%86%A0%EB%B9%84%EC%9D%98%EC%8A%A4%ED%94%84%EB%A7%81/README.md)| 2021.06.28 ~ 2021.12.09 |[link](https://github.com/JavaBookStudy/JavaBook/milestone/2?closed=1)| kjsu0209, taxol1203, daebalprime |
 
-### 🙆‍♂️🙆 함께한 사람들
+
+### 🙆‍♂️🙆 Contributors
 |   |   |   |   |
 | - | - | - | - |
 |  [kjsu0209](https://github.com/kjsu0209) |  [taxol1203](https://github.com/taxol1203)  | [jth2747](https://github.com/jth2747) | [daebalprime](https://github.com/daebalprime)  |
